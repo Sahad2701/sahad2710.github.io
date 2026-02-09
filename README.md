@@ -6,13 +6,14 @@
 - **GitHub:** [@Sahad2701](https://github.com/Sahad2701)
 - **LinkedIn:** [Sahad Kachhawala](https://www.linkedin.com/in/sahad-kachhawala/)
 
-## Short URL
+## Short URL + fix 404
 
-To get **https://sahad2701.github.io** (no extra path):
+1. **Rename repo** to **`sahad2701.github.io`** (Settings → Repository name → Rename). Otherwise the site URL will have an extra path.
+2. **Settings → Pages** → **Build and deployment** → **Source:** choose **GitHub Actions**.
+3. **Push** your code to `main`. Go to **Actions** → wait for **Deploy to GitHub Pages** to finish (green).
+4. Open **https://sahad2701.github.io** after 1–2 minutes.
 
-1. Rename this repo to **`sahad2701.github.io`** (must match your GitHub username).
-2. In repo **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**.
-3. Push to `main`; the workflow will build and deploy.
+If you still see 404, see **[DEPLOY.md](DEPLOY.md)** for step-by-step troubleshooting.
 
 ## Local run
 
